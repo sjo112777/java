@@ -1,5 +1,6 @@
 package sub2;
 
+
 /*
  * 날짜: 2025/01/07
  * 이름: 손준오
@@ -27,6 +28,42 @@ public class EncapsuleTest {
 		avante.speedUp(60);
 		avante.speedDown(50);
 		avante.show();
+		
+		avante.setColor("흰색"); //setter를 이용해 속성 수정 
+		avante.show();
+		
+		/*
+		 * Account 객채 초기화(캡슐화 적용)
+		 * <출력>
+		 * 은행명:국민은행
+		 * 계좌번호:110-11 -1011
+		 * 
+		 */
+		Account kb = new Account("국민은행", "110-11-1101", "김유신", 1000);
+		
+		kb.deposit(30000);
+		kb.withdraw(21000);
+		kb.show();
+		
+		kb.setName("김유진");
+		kb.show();
+		
+		
+		Account wr = new Account("우리은행", "110-11-1211", "김춘추", 10000);
+		
+		wr.deposit(30000);
+		wr.withdraw(21000);
+		wr.show();
+		
+		wr.setBank("유리은행");
+		wr.show();
+		
+		
+		
+		
+		
+		
+		
 
 	}
 	

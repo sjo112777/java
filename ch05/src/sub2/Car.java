@@ -36,4 +36,12 @@ public class Car {
 		System.out.println("현재속도 : " + this.speed);
 	}
 	
+	// Getter, Setter 정의 (옵션) - 캡슐화된 속성을 수정하기 위한 메서드
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
 }
