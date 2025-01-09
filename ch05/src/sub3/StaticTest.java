@@ -36,7 +36,6 @@ public class StaticTest {
 		// 전체 차량 수 클래스 메서드
 		System.out.println("전체 차량 수 : " + Car.getCount());
 		
-
 		//Increment 실습
 		Increment inc1 = new Increment();
 		Increment inc2 = new Increment();
