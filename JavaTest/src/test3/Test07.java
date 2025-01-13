@@ -1,11 +1,11 @@
 package test3;
 
 class Customer { 
-	private int id; 
-	private String name; 
-	private String grade; 
-	private int point; 
-	private double pointRatio;
+	protected int id; 
+	protected String name; 
+	protected String grade; 
+	protected int point; 
+	protected double pointRatio;
 
 public Customer(int id, String name) { 
 	this.id = id; 
@@ -60,8 +60,8 @@ public class Test07 {
 	System.out.println("김춘추님이 지불할 금액 : "+kim.calcPrice(10000)); 
 	System.out.println("이순신님이 지불할 금액 : "+lee.calcPrice(10000));
 		 
-	kim.showInfo();
-	lee.showInfo();
+	kim.showlnfo();
+	lee.showlnfo();
 
 }
 }

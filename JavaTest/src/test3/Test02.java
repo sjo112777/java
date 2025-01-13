@@ -19,10 +19,6 @@ class King {
 
 	
 	
-	
-	
-	
-	
 	public void show() {
 		System.out.println("name : " + name);
 		System.out.println("year : " + year);
