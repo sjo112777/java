@@ -3,7 +3,7 @@ package sub2;
 /*
  * 날짜: 2025/01/20 
  * 이름: 손준오
- * 내용: Java 스레드(Runnable) 실습하기
+ * 내용: Java 스레드Join 실습하기
  */
 
 class WorkThread extends Thread{
