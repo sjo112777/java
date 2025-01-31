@@ -31,7 +31,6 @@ public class ProductDAO extends DBHelper {
 		}
 	}
 	
-	
 	public Product selectProduct(int prodNo) {
 		return null;
 	}
@@ -58,7 +57,6 @@ public class ProductDAO extends DBHelper {
 			e.printStackTrace();
 		}
 		return products;
-		
 	}
 	
 	public void updateProduct(Product product) {
